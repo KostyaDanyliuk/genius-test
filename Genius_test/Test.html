@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test HTML page</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Lorem ipsum dolor sit amet.
+      </caption>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Full Name</th>
+          <th>Position</th>
+          <th>&copy;Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Bill Gatres</td>
+          <td>Founder &copy;Microsoft</td>
+          <td rowspan="2">1000$</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Steve Jobs</td>
+          <td>Founder Apple</td>
+          <td>1200$</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry Page</td>
+          <td>Founder Google</td>
+          <td>1100$</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Mark Zuckerberg</td>
+          <td>Founder Facebook</td>
+          <td>1300$</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>5</td>
+          <td>Total salary</td>
+          <td></td>
+          <td>4600$</td>
+        </tr>
+      </tfoot>
+    </table>
+    <p>заголовок на сторінці виділяється тегом &lt;h1&gt;</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2546.1746276792887!2d30.42312908304983!3d50.34464821383783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c96cec0728eb%3A0x10ac8f892e2c9ba5!2z0JDQstGC0L7RgdC10YDQstGW0YEg0LLRltC0IEF1dG9Ob3ZhLUQ!5e0!3m2!1sru!2sua!4v1737572140411!5m2!1sru!2sua"
+      width="600"
+      height="450"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/C0DPdy98e4c?si=dUazzQuJUd05513U"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <video controls>
+      <source src="test1.webm" type="video/webm" />
+      <source src="test2.mp4" type="video/mp4" />
+      <!-- якщо піддтримує формат webm, то браузер завантажить 1, якщо ні - mp4 -->
+    </video>
+    <audio controls>
+      <source src="" />
+    </audio>
+  </body>
+</html>
